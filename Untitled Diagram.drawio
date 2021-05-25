@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T10:58:53.880Z" agent="5.0 (X11)" etag="Ia8Fo9mBLAELBxmBznk4" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T11:02:31.141Z" agent="5.0 (X11)" etag="Civhwe9o2Ql9w-1a_xcq" version="14.7.0" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1731" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="3062" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,9 +159,9 @@
             <mxPoint x="1180" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ibQGJqlAU9jTsbNS9SOp-26" value="Create" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="1">
+        <mxCell id="ibQGJqlAU9jTsbNS9SOp-26" value="Create" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;exitX=0.5;exitY=0.182;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ibQGJqlAU9jTsbNS9SOp-23">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1200" y="470" as="sourcePoint" />
+            <mxPoint x="1210" y="470" as="sourcePoint" />
             <mxPoint x="1480" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -244,6 +244,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="ibQGJqlAU9jTsbNS9SOp-83" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" vertex="1" parent="ibQGJqlAU9jTsbNS9SOp-44">
+          <mxGeometry x="80" y="1290" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="ibQGJqlAU9jTsbNS9SOp-47" value="CreateFeatureGraphSelector" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;exitX=0.9;exitY=0.074;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ibQGJqlAU9jTsbNS9SOp-31">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1510" y="580" as="sourcePoint" />
@@ -286,15 +289,15 @@
             <mxPoint x="2350" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ibQGJqlAU9jTsbNS9SOp-67" value="return m_pFeaturePoolManager" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="1" target="7baba1c4bc27f4b0-7">
+        <mxCell id="ibQGJqlAU9jTsbNS9SOp-67" value="return m_pFeaturePoolManager" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2350" y="970" as="sourcePoint" />
-            <mxPoint x="2270" y="970" as="targetPoint" />
+            <mxPoint x="1500" y="970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ibQGJqlAU9jTsbNS9SOp-69" value="GetFeatureGraphMapforConfig" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="1" source="7baba1c4bc27f4b0-7">
+        <mxCell id="ibQGJqlAU9jTsbNS9SOp-69" value="GetFeatureGraphMapforConfig" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1720" y="1000" as="sourcePoint" />
+            <mxPoint x="1500" y="1000" as="sourcePoint" />
             <mxPoint x="1800" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -332,6 +335,12 @@
               <mxPoint x="2410" y="905" />
               <mxPoint x="2410" y="920" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ibQGJqlAU9jTsbNS9SOp-84" value="FinalizeFeatureInstances" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1500" y="1370" as="sourcePoint" />
+            <mxPoint x="2350" y="1370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
