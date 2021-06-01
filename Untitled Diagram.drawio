@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T09:47:55.883Z" agent="5.0 (X11)" etag="Vrc50u0R8RevIFJVsPrF" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-01T10:35:28.020Z" agent="5.0 (X11)" etag="9mszn4tFNQvUivGdBamh" version="14.7.0" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="2213" dy="956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1911" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -507,6 +507,9 @@
         </mxCell>
         <mxCell id="ibQGJqlAU9jTsbNS9SOp-130" value="获取所有符合条件的FGD，并初始化其中包含的所有feature instance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#46495D;" vertex="1" parent="1">
           <mxGeometry x="1840" y="1060" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ibQGJqlAU9jTsbNS9SOp-132" value="加载所有的feature 的动态so库，如com.qti.feature2.hdr.so" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="937.5" width="180" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
